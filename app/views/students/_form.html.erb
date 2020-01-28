@@ -14,6 +14,7 @@
   <div class="form-group">
     <%= f.label :first_name, "Name" %><br>
     <%= f.text_field :first_name, class: 'form-control' %>
+    <%=  @student.errors[:first_name].first %>
   </div>
 
   <div class="form-group">
